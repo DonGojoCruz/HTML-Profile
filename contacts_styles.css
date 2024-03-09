@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+body::-webkit-scrollbar {
+    display:none;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 3rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: 10%;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: #3081D0;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    color: #3081D0;
+}
+
+.contacts {
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contacts form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts form .input-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacts form .input-box .input-field {
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+}
+
+.contacts form .input-box .input-field input {
+    width: 60%;
+    height: 60%;
+    padding: 1.5rem;
+    font-size: 1.6em;
+    color: var(--text-color);
+    background: transparent;
+    border-radius: .6rem;
+    border: 3px solid #3081D0;
+}
+
+.contacts form .textarea-field textarea {
+    width: 80%;
+    height: 50%;
+    padding: 1.5rem;
+    font-size: 1.6em;
+    color: var(--text-color);
+    background: transparent;
+    border-radius: .6rem;
+    border: 3px solid #3081D0;
+}
+
+.btn-box .btn {
+    width: 30%;
+    height: 70px;
+    font-size: 30px;
+    background-color: #3081D0;
+    border-radius: 5px;
+    border: #f8f8f8;
+    color: #fff;
+}
+
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.form-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.form-box form .field{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .input input,
+.form-box form .input select {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Ensures the border color is consistent */
+    outline: none;
+    background: #fdfdfd; /* Matches the background color of the form */
+    color: #333; /* Sets the text color */
+}
+
+.btn{
+    height: 35px;
+    background: #3081D0;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover{
+    opacity: 0.82;
+}
+
+.submit{
+    width: 100%;
+}
+
+.links{
+    margin-bottom: 15px;
+}

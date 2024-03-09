@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    height: 2300px;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar {
+    display:none;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 3rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: 10%;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: #3081D0;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+p {
+    margin-top: 4%;
+    font-size: 17px;
+    line-height: 1,8em;
+}
+
+.box {
+    width: 80%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #3081D0;
+    border-style: solid;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: #777;
+}
+
+.box h5 {
+    font-size: 25px;
+}
+
+.box1 {
+    width: 40%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #3081D0;
+    border-style: solid;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: #777;
+}
+
+.box1 h5 {
+    font-size: 25px;
+}
+
+.box1-genshin {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.box1-furina {
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.box2 {
+    width: 40%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #3081D0;
+    border-style: solid;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: #777;
+}
+
+.box2 h5 {
+    font-size: 25px;
+}
+
+.valorant {
+    margin-top: 2%;
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.box3 {
+    width: 40%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #3081D0;
+    border-style: solid;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: #777;
+}
+
+.box3 h5 {
+    font-size: 25px;
+}
+
+.stranger {
+    margin-top: 2%;
+    width: 325px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.box4 {
+    width: 40%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #3081D0;
+    border-style: solid;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: #777;
+}
+
+.box4 h5 {
+    font-size: 25px;
+}
+
+.aot {
+    margin-top: 2%;
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.box5 {
+    width: 40%;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #3081D0;
+    border-style: solid;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color: #777;
+}
+
+.box5 h5 {
+    font-size: 25px;
+}
+
+.marvel {
+    margin-top: 2%;
+    width: 350px;
+    height: 200px;
+    border-radius: 3%;
+}
